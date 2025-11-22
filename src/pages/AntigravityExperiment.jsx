@@ -4,7 +4,7 @@ import './Concept.css'; // Reuse concept styling
 const AntigravityExperiment = () => {
     return (
         <div className="concept-page">
-            <h1>Try Antigravity</h1>
+            <h1>Antigravity</h1>
 
             <div className="concept-content">
                 <p>Antigravity is an advanced AI agent designed to revolutionize how you code. It's not just a chatbot; it's a pair programmer that understands your entire project.</p>
@@ -27,7 +27,7 @@ const AntigravityExperiment = () => {
 
                 <div style={{ marginTop: '3rem', textAlign: 'center' }}>
                     <a
-                        href="https://chromewebstore.google.com/detail/antigravity-browser-exten/eeijfnjmjelap"
+                        href="https://antigravity.google/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-button"
@@ -36,7 +36,7 @@ const AntigravityExperiment = () => {
                         Get Antigravity 🚀
                     </a>
                     <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#94a3b8' }}>
-                        Available on the Chrome Web Store
+                        Available on the website
                     </p>
                 </div>
             </div>
