@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #38bdf8;
+  /* Soft Sky Blue */
+  --secondary-color: #c084fc;
+  /* Pastel Lavender */
+  --accent-color: #f472b6;
+  /* Soft Pink */
+  --background-color: #23272f;
+  /* Soft Charcoal */
+  --text-color: #f1f5f9;
+  /* Off-white */
+  --card-bg: rgba(255, 255, 255, 0.03);
+  /* Subtle Glass */
+  --font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.05);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 25%),
+    radial-gradient(circle at 85% 85%, rgba(192, 132, 252, 0.08) 0%, transparent 25%);
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
